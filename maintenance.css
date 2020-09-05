@@ -1,0 +1,71 @@
+@import 'fonts/Montserrat-SemiBold.ttf';
+*{
+    font-family: 'Montserrat';
+    color: #e0e1ea;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    cursor: default;
+}
+.content{
+    width:100%;
+    height:auto;
+    margin-top: 200px;
+    position: relative;
+}
+.content h1{
+    font-size: 44pt;
+    float: left;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+.countdown-card {
+    margin-right: 100px;
+    margin-top: 70px;
+    display: block;
+    float: right;
+}
+.countdown-card .card{
+    text-align: center;
+    display: inline-block;
+}
+.countdown-card .card{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.countdown-card .days,.hours,.minutes,.seconds{
+    width: 120px;
+    height: auto;
+    padding: 20px;
+    background-color: #151515;
+    border-radius: 10px;
+}
+.countdown-card .days,.hours,.minutes,.seconds{
+    font-size: 60pt;
+}
+.countdown-card .card .footer-card-title{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.footer{
+    height:auto;
+    right: 0;
+    left:0;
+    bottom:0;
+    margin-bottom: 30px;
+    position: absolute;
+}
+.footer p{
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 500;
+}
+.footer span{
+    text-decoration: underline;
+}
+.footer span a:hover{
+    color: white;
+}
